@@ -4,7 +4,6 @@ Optimizing Performance of Web Application
   * CSS,Javascript,DOM
   * Automation tools
   * Cache
-  * PWA
 ***
 
 ### CSS,Javascript,DOM
@@ -91,3 +90,28 @@ Optimizing Performance of Web Application
     - Use cache and reduce the number of changing the layout
 
 ***
+
+### Automation tools
+ #### webpack 
+  - [SplitChunksPlugin](https://www.webpackjs.com/plugins/split-chunks-plugin/)
+  - [Tree Shaking](https://webpack.js.org/guides/tree-shaking/)
+  - [syntax-dynamic-import](https://webpack.wuhaolin.cn/4%E4%BC%98%E5%8C%96/4-12%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD.html)
+  - UglifyJS
+  - DllPlugin: provide means to split bundles in a way that can drastically improve build time performance
+  - [Scope Hoisting](https://webpack.wuhaolin.cn/4%E4%BC%98%E5%8C%96/4-14%E5%BC%80%E5%90%AFScopeHoisting.html)
+  - [PrePack](https://prepack.io/) A tool that optimizes JavaScript source code: Computations that can be done at compile-time instead of run-time get eliminated
+  - [HappyPack](https://github.com/amireh/happypack) makes initial webpack builds faster by transforming files
+ ***
+ 
+ ### Cache
+ #### Browser cache
+  - HTML meta
+  - HTML5 appcache(Deprecated)
+  - PWA
+   - [Service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+   - Web App Manifest
+   - Push & Notifications
+   - Add to Home Screen
+ #### HTTP Cache
+  - nginx 
+  - CDN(Content Delivery Network)
