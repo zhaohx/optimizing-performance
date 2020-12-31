@@ -84,11 +84,11 @@ Optimizing Performance of Web Application
    
    #### DOM
    * Get & Set
-    - Use local variable to store a node
-    - Use querySelectorAll
+     - Use local variable to store a node
+     - Use querySelectorAll
     
    * Reflow & Repaint
-    - Use cache and reduce the number of changing the layout
+     - Use cache and reduce the number of changing the layout
 
 ***
 
