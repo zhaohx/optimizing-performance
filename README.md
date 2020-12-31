@@ -62,6 +62,22 @@ Optimizing Performance of Web Application
     ```
     
   * Loops
+   - Aviod to use for in
+   - Be aware of the error "Maximum call stack size exceeded" when using recursion.Use iteration to avoid.
+   ```
+   // bad example
+   let items = [1,2,3,4,5,6,7,8];
+   for (let i = 0; i < items.length; i++) {
+        //TODO: process(items[i])
+   }
+   
+   // good example
+   let items = [1,2,3,4,5,6,7,8];
+   let length = items.length;
+   for (let i = 0; i < length; i++) {
+        //TODO: process(items[i])
+   }
+   ```
     
   * String & RegExp
-  
+   - Use + += to connect string rather than Array.join or Array.concat
