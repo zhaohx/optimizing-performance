@@ -1,9 +1,10 @@
-# optimizing-performance
+# Optimizing Performance
 Optimizing Performance of Web Application
 ## Ways to optimize
   * CSS,Javascript,DOM
   * Automation tools
   * Cache
+  * Memory
 ***
 
 ### CSS,Javascript,DOM
@@ -108,10 +109,18 @@ Optimizing Performance of Web Application
   - HTML meta
   - HTML5 appcache(Deprecated)
   - PWA
-   - [Service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
-   - Web App Manifest
-   - Push & Notifications
-   - Add to Home Screen
+    - [Service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+    - Web App Manifest
+    - Push & Notifications
+    - Add to Home Screen
  #### HTTP Cache
   - nginx 
   - CDN(Content Delivery Network)
+  - HTTP2
+ ***
+ 
+ ### Memory
+  - Closure
+  - Timer
+  - Event
+  - Virtual list
