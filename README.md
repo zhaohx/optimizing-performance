@@ -81,3 +81,13 @@ Optimizing Performance of Web Application
     
   * String & RegExp
    - Use + += to connect string rather than Array.join or Array.concat
+   
+   #### DOM
+   * Get & Set
+    - Use local variable to store a node
+    - Use querySelectorAll
+    
+   * Reflow & Repaint
+    - Use cache and reduce the number of changing the layout
+
+***
